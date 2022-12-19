@@ -1,0 +1,80 @@
+.kasa-accordion-cards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.kasa-accordion-card {
+    width: 47%;
+    margin-top: 50px;
+}
+
+.kasa-about-accordion-card {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.kasa-accordion-card-head {
+    background: #FF6060;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 35px;
+    width: calc(100% - 70px);
+}
+
+.kasa-accordion-card-head-title {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.kasa-accordion-card-body {
+    background: #F7F7F7;
+    border-radius: 0 0 5px 5px;
+    padding: 15px 35px;
+    /*width: 100%;*/
+}
+
+.kasa-accordion-card-body p {
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #FF6060;
+}
+
+.kasa-accordion-card-body-show {
+    display: block;
+}
+
+.kasa-accordion-card-body-hide {
+    display: none;
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+
+}
+
+@media screen and  (max-width: 768px) {
+
+    .kasa-accordion-cards {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .kasa-about-accordion-card, .kasa-accordion-card {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .kasa-accordion-card-head-title {
+        font-size: 0.875rem;
+    }
+
+    .kasa-accordion-card-body p {
+        font-size: 0.875rem;
+    }
+
+}

@@ -1,0 +1,43 @@
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* General styles */
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Html */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Body */
+body {
+    max-width: 1440px;
+    margin: auto;
+}
+
+a {
+    outline-color: #FF6060;
+}
+
+/* Main */
+
+main {
+    width: 90%;
+    margin: 50px auto;
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+
+}
+
+@media screen and  (max-width: 768px) {
+
+    main {
+        margin: 10px auto;
+    }
+
+}
